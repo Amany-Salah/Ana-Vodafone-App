@@ -1,0 +1,65 @@
+.top-nav {
+  display: grid;
+  grid-template-columns: 3.2rem 1fr;
+  margin: 0 0 1.2rem 0;
+  align-items: center;
+  padding-top: 0.6rem;
+}
+.heading-tertiary.align-text {
+  justify-self: center !important;
+}
+.back {
+  justify-items: end;
+}
+.icon-arrow {
+  color: #656565;
+  width: 3.2rem;
+  height: 3.2rem;
+}
+/*
+********************************
+ACCOUNT
+******************************** 
+*/
+.account {
+  display: grid;
+  align-content: start;
+  grid-template-columns: 1fr;
+  gap: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+.account-text {
+  border-bottom: 1px solid #efefef;
+  padding-bottom: 0.6rem;
+}
+.account-details {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+}
+.icon-account {
+  width: 4.8rem;
+  height: 4.8rem;
+  color: #e02100;
+}
+.heading-secondary.height {
+  margin-bottom: 0.2rem;
+}
+.paragraph {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.text1,
+.text2 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.btn.new-account {
+  background-color: #e00201;
+  color: #fff;
+  grid-column: 1/-1;
+  padding: 1.6rem;
+  border-radius: 5px;
+}

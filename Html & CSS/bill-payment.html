@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bill Payment</title>
+    <link rel="stylesheet" type="text/css" href="bill-payment.css" />
+    <link rel="stylesheet" type="text/css" href="general.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="main">
+      <header class="top-nav body-margin">
+        <a class="btn back" href="my-bill.html">
+          <ion-icon class="icon-back" name="chevron-back-outline"></ion-icon>
+        </a>
+        <h3 class="heading-tertiary align-text">Bill Payment</h3>
+      </header>
+      <div class="block body-margin">
+        <h3 class="heading-secondary grey-text">Pay and get FREE MBs</h3>
+        <h3 class="heading-tertiary">
+          Pay you bill every month on the app and unlock higher value
+        </h3>
+        <div class="dismiss-flex">
+          <a class="dismiss" href="#">Dismiss for now</a>
+        </div>
+      </div>
+      <div class="block body-margin">
+        <p class="heading-tertiary">
+          Your bill this month is: <br /><span class="red-number">511.77</span>
+          EGP
+        </p>
+      </div>
+      <h2 class="choose">Choose a convenient payment method</h2>
+      <div class="block body-margin">
+        <p class="heading-tertiary">Choose a payment method</p>
+        <p class="sub-text">
+          You can pay the whole amount or part of the amount
+        </p>
+      </div>
+      <div class="credit-card body-margin">
+        <div class="credit-heading">
+          <h3 class="heading-secondary grey-text">Credit card or Debit card</h3>
+          <button class="arrow-btn">
+            <ion-icon class="arrow" name="chevron-down-outline"></ion-icon>
+            <ion-icon class="arrow" name="chevron-up-outline"></ion-icon>
+          </button>
+        </div>
+        <form class="payment-amount">
+          <div class="all">
+            <input
+              type="radio"
+              id="all-amount"
+              name="amount"
+              value="all-amount"
+            />
+            <label for="all-amount">Pay all due amonut 512 EGP</label><br />
+          </div>
+          <div class="partial">
+            <input
+              type="radio"
+              id="partial-amount"
+              name="amount"
+              value="partial-amount"
+            />
+            <label for="partial-amount">Pay partial</label><br />
+          </div>
+          <a class="add" href="add-credit-card.html">Add credit card</a>
+        </form>
+      </div>
+      <div class="vodafone-cash body-margin">
+        <div class="vodafone-cash-heading">
+          <h3 class="heading-secondary grey-text">Vodafone cash</h3>
+          <button class="arrow-btn">
+            <ion-icon class="arrow" name="chevron-down-outline"></ion-icon>
+            <ion-icon class="arrow" name="chevron-up-outline"></ion-icon>
+          </button>
+        </div>
+        <form class="payment-amount">
+          <div class="all">
+            <input
+              type="radio"
+              id="all-amount"
+              name="amount"
+              value="all-amount"
+            />
+            <label for="all-amount">Pay all due amonut 512 EGP</label><br />
+          </div>
+          <div class="partial">
+            <input
+              type="radio"
+              id="partial-amount"
+              name="amount"
+              value="partial-amount"
+            />
+            <label for="partial-amount">Pay partial</label><br />
+          </div>
+          <a class="add" href="add-credit-card.html">Pay now</a>
+        </form>
+      </div>
+    </main>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

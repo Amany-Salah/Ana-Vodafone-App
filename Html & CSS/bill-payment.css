@@ -1,0 +1,122 @@
+.top-nav {
+  display: grid;
+  grid-template-columns: 3.2rem 1fr;
+  margin: 0 0 1.2rem 0;
+  align-items: center;
+  /* gap: 3.2rem; */
+}
+.heading-tertiary.align-text {
+  justify-self: center !important;
+}
+.back {
+  justify-items: end;
+}
+.icon-back {
+  color: #656565;
+  width: 3.2rem;
+  height: 3.2rem;
+}
+/*
+********************************
+DISMISS
+******************************** 
+*/
+.dismiss-flex {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 1.2rem;
+}
+.dismiss {
+  margin-top: 1.2rem;
+  margin-bottom: 0.6rem;
+  display: inline;
+  border: 1px solid #e00201;
+  border-radius: 5px;
+  padding: 1.6rem 3.2rem;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #e00201;
+}
+.red-number {
+  font-size: 2rem;
+  color: #e00201;
+  font-weight: 700;
+}
+.choose {
+  color: #c7c7c7;
+  text-align: center;
+  font-weight: 400;
+  font-size: 2rem;
+  margin-top: 2.4rem;
+}
+.sub-text {
+  color: #c7c7c7;
+  margin-top: 0.6rem;
+}
+.credit-heading {
+  border-bottom: 1px solid #ebebeb;
+}
+.credit-heading,
+.vodafone-cash-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.arrow {
+  color: #e00201;
+  width: 3.2rem;
+  height: 3.2rem;
+}
+.all,
+.partial {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+/* input[type="radio"] {
+  border: none;
+} */
+.payment-amount {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  /* opacity: 0;
+  pointer-events: none;
+  visibility: hidden; */
+  display: none;
+}
+.arrow-btn {
+  border: none;
+  background-color: none;
+  background: none;
+}
+.arrow[name="chevron-up-outline"] {
+  display: none;
+}
+/* .arrow-clicked .payment-amount {
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
+  display: block;
+}
+.arrow-clicked .arrow[name="chevron-up-outline"] {
+  display: block;
+}
+.arrow-clicked .arrow[name="chevron-down-outline"] {
+  display: none;
+} */
+
+.add {
+  margin-top: 1.2rem;
+  margin-bottom: 0.6rem;
+  display: block;
+  border-radius: 5px;
+  padding: 1.6rem;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: #e00201;
+}

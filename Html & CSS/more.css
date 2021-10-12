@@ -1,0 +1,43 @@
+.top-nav {
+  display: flex;
+  justify-content: flex-end;
+}
+.heading-tertiary.align-text {
+  justify-self: center !important;
+}
+.close {
+  justify-items: end;
+}
+.icon-close {
+  color: #656565;
+  width: 4rem;
+  height: 4rem;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  background-color: #fff;
+  padding: 0 1.2rem;
+}
+.option {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.2rem;
+  border-bottom: 2px dashed #c7c7c7;
+  padding-bottom: 1.2rem;
+}
+.border-top {
+  border-top: 2px dashed #c7c7c7;
+  padding-top: 1.2rem;
+}
+.icon {
+  width: 4rem;
+  height: 4rem;
+}
+
+.text {
+  font-size: 2rem;
+  font-weight: 500;
+}

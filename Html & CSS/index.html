@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home</title>
+    <link rel="icon" href="img/vodafone-logo.png" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="stylesheet" href="queries.css" />
+    <link rel="stylesheet" type="text/css" href="general.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="main body-margin">
+      <header class="top-nav">
+        <img
+          class="vodafone-logo"
+          src="img/vodafone-logo.png"
+          alt="vodafone logo"
+        />
+        <a class="btn search" href="search.html">
+          <ion-icon class="icon-search" name="search"></ion-icon>
+        </a>
+      </header>
+      <div class="my-plan">
+        <h2 class="heading-primary">My Plan</h2>
+        <div class="block">
+          <h3 class="heading-secondary red-text">2020 Red Business 400</h3>
+          <div class="plan-details">
+            <p class="minutes">&nbsp;&nbsp;4000<br />minutes</p>
+            <div class="vertical-line"></div>
+            <p class="sms">3000 SMS</p>
+            <div class="vertical-line"></div>
+            <p class="gegabytes">20 GB</p>
+          </div>
+          <div class="more">
+            <p class="pay-money">
+              400 EGP <span class="pay-month">/month (tax exclusive)</span>
+            </p>
+
+            <p class="show-more">Show More</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- USAGE DETAILS -->
+      <div class="usage-details block">
+        <!-- <div class="tab">
+          <button
+            class="tablinks btn internet"
+            onclick="openCity(event, 'Internet')"
+          >
+            Internet
+          </button>
+          <button
+            class="tablinks btn minutes-usage"
+            onclick="openCity(event, 'Minutes')"
+          >
+            Minutes
+          </button>
+          <button
+            class="tablinks btn intra-minutes"
+            onclick="openCity(event, 'Intra Minutes')"
+          >
+            Intra Minutes
+          </button>
+        </div> -->
+        <div class="btns">
+          <button class="btn internet">Internet</button>
+          <button class="btn minutes-usage">Minutes</button>
+          <button class="btn intra-minutes">Intra Minutes</button>
+        </div>
+
+        <p class="internet-details">
+          <span class="internet-num">19645</span> left of
+          <span class="internet-mb">20000 MB</span>
+        </p>
+        <hr class="red-line" />
+        <div class="last-flex">
+          <div class="text-box">
+            <p class="renewal">
+              <span class="renewal-days">19 Days</span> to renew
+            </p>
+            <div class="last">
+              <ion-icon class="icon-refresh" name="refresh-outline"></ion-icon>
+              <p class="last-updated">Last updated 01:12</p>
+            </div>
+          </div>
+          <a class="btn-manage" href="mi-management.html">Manage</a>
+        </div>
+      </div>
+
+      <!-- MY BILL -->
+      <div class="bill block">
+        <svg
+          class="icon-bill"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          enable-background="new 0 0 512 512"
+          version="1.1"
+          viewBox="0 0 512 512"
+          xml:space="preserve"
+        >
+          <g id="Layer_1" />
+          <g id="Layer_2">
+            <g>
+              <path
+                d="M382.6,82h-39.2c-4.1,0-7.5,3.4-7.5,7.5v14.9c0,3.9-3.2,7.1-7.1,7.1s-7.1-3.2-7.1-7.1V89.5c0-4.1-3.4-7.5-7.5-7.5h-41.4    c-4.1,0-7.5,3.4-7.5,7.5v14.9c0,3.9-3.2,7.1-7.1,7.1h-3.4c-3.9,0-7.1-3.2-7.1-7.1V90.6c0-4.1-3.4-7.5-7.5-7.5h-35.8    c-4.1,0-7.5,3.4-7.5,7.5v13.8c0,3.9-3.2,7.1-7.1,7.1h-4.5c-3.9,0-7.1-3.2-7.1-7.1V90.6c0-4.1-3.4-7.5-7.5-7.5h-41.4    c-4.1,0-7.5,3.4-7.5,7.5v330.9c0,4.1,3.4,7.5,7.5,7.5h41.4c4.1,0,7.5-3.4,7.5-7.5v-13.8c0-3.9,3.2-7.1,7.1-7.1h4.5    c3.9,0,7.1,3.2,7.1,7.1v13.8c0,4.1,3.4,7.5,7.5,7.5h35.8c4.1,0,7.5-3.4,7.5-7.5v-13.8c0-3.9,3.2-7.1,7.1-7.1h3.4    c3.9,0,7.1,3.2,7.1,7.1v14.9c0,4.1,3.4,7.5,7.5,7.5h41.4c4.1,0,7.5-3.4,7.5-7.5v-14.9c0-3.9,3.2-7.1,7.1-7.1s7.1,3.2,7.1,7.1v14.9    c0,4.1,3.4,7.5,7.5,7.5h39.2c4.1,0,7.5-3.4,7.5-7.5V89.5C390.1,85.4,386.7,82,382.6,82z M375.1,415h-24.2v-7.4    c0-12.2-9.9-22.1-22.1-22.1c-12.2,0-22.1,9.9-22.1,22.1v7.4h-26.4v-7.4c0-12.2-9.9-22.1-22.1-22.1h-3.4    c-12.2,0-22.1,9.9-22.1,22.1v6.3H212v-6.3c0-12.2-9.9-22.1-22.1-22.1h-4.5c-12.2,0-22.1,9.9-22.1,22.1v6.3h-26.4V98.1h26.4v6.3    c0,12.2,9.9,22.1,22.1,22.1h4.5c12.2,0,22.1-9.9,22.1-22.1v-6.3h20.8v6.3c0,12.2,9.9,22.1,22.1,22.1h3.4    c12.2,0,22.1-9.9,22.1-22.1V97h26.4v7.4c0,12.2,9.9,22.1,22.1,22.1c12.2,0,22.1-9.9,22.1-22.1V97h24.2V415z"
+              />
+              <path
+                d="M282.1,161.5H167.9c-4.1,0-7.5,3.4-7.5,7.5s3.4,7.5,7.5,7.5h114.3c4.1,0,7.5-3.4,7.5-7.5S286.3,161.5,282.1,161.5z"
+              />
+              <path
+                d="M344.1,161.5h-24.6c-4.1,0-7.5,3.4-7.5,7.5s3.4,7.5,7.5,7.5h24.6c4.1,0,7.5-3.4,7.5-7.5S348.3,161.5,344.1,161.5z"
+              />
+              <path
+                d="M282.1,209.3H167.9c-4.1,0-7.5,3.4-7.5,7.5s3.4,7.5,7.5,7.5h114.3c4.1,0,7.5-3.4,7.5-7.5S286.3,209.3,282.1,209.3z"
+              />
+              <path
+                d="M319.5,224.3h24.6c4.1,0,7.5-3.4,7.5-7.5s-3.4-7.5-7.5-7.5h-24.6c-4.1,0-7.5,3.4-7.5,7.5S315.3,224.3,319.5,224.3z"
+              />
+              <path
+                d="M282.1,257.1H167.9c-4.1,0-7.5,3.4-7.5,7.5s3.4,7.5,7.5,7.5h114.3c4.1,0,7.5-3.4,7.5-7.5S286.3,257.1,282.1,257.1z"
+              />
+              <path
+                d="M319.5,272.1h24.6c4.1,0,7.5-3.4,7.5-7.5s-3.4-7.5-7.5-7.5h-24.6c-4.1,0-7.5,3.4-7.5,7.5S315.3,272.1,319.5,272.1z"
+              />
+            </g>
+          </g>
+        </svg>
+        <!-- <svg
+          class="icon-bill"
+          xmlns="http://www.w3.org/2000/svg"
+          data-name="Your Icons"
+          id="Your_Icons"
+          viewBox="0 0 48 48"
+        >
+          <title />
+          <path
+            d="M8,13h6V26.26A8,8,0,0,0,16,42a7.77,7.77,0,0,0,1.46-.14,2.78,2.78,0,0,0,.87.14c2.17,0,2.17-2,4.33-2s2.17,2,4.33,2,2.17-2,4.34-2,2.16,2,4.33,2c1.56,0,2-1,2.93-1.61A3,3,0,0,0,40,37.84V11a5,5,0,0,0-5-5H11a4.62,4.62,0,0,0-1,.1h0A5,5,0,0,0,6,11,2,2,0,0,0,8,13Zm2,21a6,6,0,0,1,4-5.65,5.79,5.79,0,0,1,.93-.25l.13,0A5.86,5.86,0,0,1,16,28a6,6,0,1,1-6,6ZM35,8a3,3,0,0,1,3,3V37.84a1,1,0,0,1-.47.85,7.25,7.25,0,0,0-1.05.84c-.5.45-.54.47-.82.47s-.32,0-.81-.47a4.83,4.83,0,0,0-7,0c-.49.45-.54.47-.81.47s-.31,0-.8-.47A4.91,4.91,0,0,0,22.92,38l0,0a8.29,8.29,0,0,0,.74-1.76l.06-.24a5.94,5.94,0,0,0,.14-.71,2.36,2.36,0,0,0,0-.28A7.77,7.77,0,0,0,24,34a7.9,7.9,0,0,0-.59-3H35a1,1,0,0,0,0-2H22.46a1.06,1.06,0,0,0-.19,0,8.12,8.12,0,0,0-2.4-2H35a1,1,0,0,0,0-2H19a1,1,0,0,0-1,1,.88.88,0,0,0,.06.28A7.82,7.82,0,0,0,16,26V11a7,7,0,0,0-.67-3Zm-24.78.1h0l.21,0A3.06,3.06,0,0,1,11,8a3,3,0,0,1,2.12.87,3.1,3.1,0,0,1,.82,1.53A5.8,5.8,0,0,1,14,11H8A3,3,0,0,1,10.22,8.1Z"
+          />
+          <path d="M29,14h6a1,1,0,0,0,0-2H29a1,1,0,0,0,0,2Z" />
+          <path d="M29,18h6a1,1,0,0,0,0-2H29a1,1,0,0,0,0,2Z" />
+          <path d="M29,22h6a1,1,0,0,0,0-2H29a1,1,0,0,0,0,2Z" />
+          <path
+            d="M20,22h4a2,2,0,0,0,2-2V14a2,2,0,0,0-2-2H20a2,2,0,0,0-2,2v6A2,2,0,0,0,20,22Zm0-8h4v6H20Z"
+          />
+          <path
+            d="M19.2,33.78a1,1,0,0,0,0-1.41,1,1,0,0,0-1.42,0l-2.43,2.33L14.2,33.54A1,1,0,1,0,12.81,35l1.88,1.8a1,1,0,0,0,1.38,0Z"
+          />
+        </svg> -->
+        <div class="bill-text">
+          <h2 class="heading-primary margin">My Bill</h2>
+          <p class="line">Line: <span class="active">Active</span></p>
+        </div>
+        <a class="btn tap" href="my-bill.html">Tap for more &gt;</a>
+      </div>
+
+      <!-- MY SERVICES -->
+      <div class="my-services">
+        <h2 class="heading-primary">My Services</h2>
+        <div class="services">
+          <button class="btn flex">
+            <div class="img-services">
+              <img
+                class="img"
+                src="img/vodafone-cash.png"
+                alt="vodafone cash"
+              />
+            </div>
+            <p class="text">
+              Vodafone<br />
+              cash
+            </p>
+          </button>
+          <button class="btn flex">
+            <div class="img-services">
+              <img
+                class="img"
+                src="img/pay-for-others.png"
+                alt="pay bill for others"
+              />
+            </div>
+            <p class="text">
+              Pay bills<br />
+              for others
+            </p>
+          </button>
+          <button class="btn flex">
+            <div class="img-services">
+              <img
+                class="img"
+                src="img/recharge-for-others.png"
+                alt="recharge for others"
+              />
+            </div>
+            <p class="text">
+              Recharge<br />
+              for others
+            </p>
+          </button>
+          <button class="btn flex">
+            <div class="img-services">
+              <img class="img router" src="img/router.png" alt="vodafone dsl" />
+            </div>
+            <p class="text">
+              Vodafone<br />
+              DSL
+            </p>
+          </button>
+        </div>
+      </div>
+
+      <!-- ECLUSIVE OFFERS -->
+      <div class="exclusive-offers">
+        <h2 class="heading-primary">Exclusive Offers</h2>
+        <button class="btn">
+          <img
+            class="exclusive-img"
+            src="img/netflix.png"
+            alt="exclusive offers netflix"
+          />
+        </button>
+      </div>
+      <!-- MY BENEFITS -->
+      <div class="my-benefits">
+        <h2 class="heading-primary">My Benefits</h2>
+        <button class="btn">
+          <img
+            class="benefits-img"
+            src="img/aser-yassin.png"
+            alt="benefits netflix"
+          />
+        </button>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer-nav sticky">
+      <div class="btns-footer">
+        <a class="btn flex" href="profile.html">
+          <svg
+            class="icon-btn"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            enable-background="new 0 0 512 512"
+            id="Layer_1"
+            version="1.1"
+            viewBox="0 0 512 512"
+            xml:space="preserve"
+          >
+            <g>
+              <path
+                d="M256,274.1c-75.6,0-137.1-61.5-137.1-137.1S180.4,0,256,0c75.6,0,137.1,61.5,137.1,137.1   S331.6,274.1,256,274.1z M256,20.4c-64.3,0-116.6,52.3-116.6,116.6S191.7,253.7,256,253.7c64.3,0,116.6-52.3,116.6-116.6   S320.3,20.4,256,20.4z"
+                fill="#6A6E7C"
+              />
+              <path
+                d="M493.9,512c-5.6,0-10.2-4.6-10.2-10.2c0-125.5-102.1-227.6-227.6-227.6c-125.5,0-227.6,102.1-227.6,227.6   c0,5.6-4.6,10.2-10.2,10.2s-10.2-4.6-10.2-10.2c0-66.3,25.8-128.6,72.7-175.4s109.2-72.7,175.4-72.7s128.6,25.8,175.4,72.7   s72.7,109.2,72.7,175.4C504.1,507.4,499.5,512,493.9,512z"
+                fill="#6A6E7C"
+              />
+            </g>
+          </svg>
+          <p class="btn-text">Profile</p>
+        </a>
+        <a class="btn flex" href="offers.html">
+          <svg
+            class="icon-btn"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            enable-background="new 0 0 128 128"
+            height="128px"
+            id="Layer_1"
+            version="1.1"
+            viewBox="0 0 128 128"
+            width="128px"
+            xml:space="preserve"
+          >
+            <path
+              d="M105.051,61.44H23.025c-2.879,0-5.221-2.341-5.221-5.219V40.585c0-2.878,2.342-5.22,5.221-5.22h82.025  c2.878,0,5.219,2.342,5.219,5.22v15.637C110.27,59.099,107.929,61.44,105.051,61.44z M23.025,39.365  c-0.662,0-1.221,0.559-1.221,1.22v15.637c0,0.672,0.548,1.219,1.221,1.219h82.025c0.672,0,1.219-0.547,1.219-1.219V40.585  c0-0.662-0.559-1.22-1.219-1.22H23.025z"
+            />
+            <path
+              d="M93.612,115.006H34.46c-5.542,0-10.051-4.508-10.051-10.051V59.44c0-1.104,0.896-2,2-2s2,0.896,2,2v45.515  c0,3.337,2.715,6.051,6.051,6.051h59.152c3.335,0,6.049-2.714,6.049-6.051V59.44c0-1.104,0.896-2,2-2s2,0.896,2,2v45.515  C103.661,110.498,99.153,115.006,93.612,115.006z"
+            />
+            <path
+              d="M64.037,115.006c-1.104,0-2-0.895-2-2V59.44c0-1.104,0.896-2,2-2s2,0.896,2,2v53.565  C66.037,114.111,65.142,115.006,64.037,115.006z"
+            />
+            <g>
+              <path
+                d="M39.075,39.358c-6.26-3.392-8.596-11.244-5.207-17.505c3.387-6.258,11.238-8.595,17.501-5.209   c9.541,5.168,14.693,19.586,14.907,20.197l-3.773,1.327c-0.048-0.136-4.861-13.577-13.037-18.006   c-4.325-2.338-9.743-0.724-12.08,3.595c-2.339,4.323-0.727,9.743,3.596,12.084L39.075,39.358z"
+              />
+              <path
+                d="M88.995,39.358l-1.904-3.518c2.095-1.135,3.622-3.016,4.302-5.297c0.679-2.282,0.428-4.692-0.707-6.785   c-1.132-2.095-3.012-3.621-5.293-4.3c-2.282-0.679-4.69-0.429-6.784,0.704c-8.176,4.428-12.989,17.869-13.037,18.005l-3.773-1.327   c0.214-0.611,5.365-15.029,14.906-20.196c3.032-1.642,6.525-2.004,9.829-1.02c3.307,0.983,6.03,3.196,7.671,6.229   c1.643,3.032,2.006,6.523,1.022,9.83C94.242,34.989,92.029,37.714,88.995,39.358z"
+              />
+            </g>
+            <path
+              d="M101.661,88.224H26.409c-1.104,0-2-0.896-2-2s0.896-2,2-2h75.252c1.104,0,2,0.896,2,2S102.766,88.224,101.661,88.224z"
+            />
+          </svg>
+          <p class="btn-text">Offers</p>
+        </a>
+        <a class="btn flex">
+          <svg
+            class="icon-btn home"
+            xmlns="http://www.w3.org/2000/svg"
+            data-name="Livello 1"
+            id="Livello_1"
+            viewBox="0 0 128 128"
+          >
+            <title />
+            <path
+              d="M127.12,60.22,115.46,48.56h0L69,2.05a7,7,0,0,0-9.9,0L12.57,48.53h0L.88,60.22a3,3,0,0,0,4.24,4.24l6.57-6.57V121a7,7,0,0,0,7,7H46a7,7,0,0,0,7-7V81a1,1,0,0,1,1-1H74a1,1,0,0,1,1,1v40a7,7,0,0,0,7,7h27.34a7,7,0,0,0,7-7V57.92l6.54,6.54a3,3,0,0,0,4.24-4.24ZM110.34,121a1,1,0,0,1-1,1H82a1,1,0,0,1-1-1V81a7,7,0,0,0-7-7H54a7,7,0,0,0-7,7v40a1,1,0,0,1-1,1H18.69a1,1,0,0,1-1-1V51.9L63.29,6.29a1,1,0,0,1,1.41,0l45.63,45.63Z"
+            />
+          </svg>
+        </a>
+        <a class="btn flex" href="entertainment.html">
+          <svg
+            class="icon-btn"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            enable-background="new 0 0 512 512"
+            height="512px"
+            id="Layer_1"
+            version="1.1"
+            viewBox="0 0 512 512"
+            width="512px"
+            xml:space="preserve"
+          >
+            <g>
+              <g>
+                <path
+                  d="M444.99,357.438H67.01c-5.522,0-10-4.477-10-10V82.061c0-5.523,4.478-10,10-10h377.98c5.522,0,10,4.477,10,10v265.377    C454.99,352.961,450.513,357.438,444.99,357.438z M77.01,337.438h357.98V92.061H77.01V337.438z"
+                />
+              </g>
+              <g>
+                <path
+                  d="M190.956,299.857c-1.727,0-3.453-0.447-5-1.34c-3.094-1.786-5-5.087-5-8.66V139.643c0-3.573,1.906-6.874,5-8.66    s6.906-1.787,10,0l130.088,75.106c3.094,1.786,5,5.087,5,8.66s-1.906,6.874-5,8.66l-130.088,75.107    C194.409,299.41,192.683,299.857,190.956,299.857z M200.956,156.963v115.573l100.088-57.787L200.956,156.963z"
+                />
+              </g>
+              <g>
+                <path
+                  d="M444.99,415.939H143c-5.522,0-10-4.477-10-10s4.478-10,10-10h301.99c5.522,0,10,4.477,10,10    S450.513,415.939,444.99,415.939z"
+                />
+              </g>
+              <g>
+                <path
+                  d="M100,415.939H67.01c-5.522,0-10-4.477-10-10s4.478-10,10-10H100c5.522,0,10,4.477,10,10S105.522,415.939,100,415.939z"
+                />
+              </g>
+              <g>
+                <path
+                  d="M131,439.939h-19c-12.131,0-22-9.869-22-22v-24c0-12.131,9.869-22,22-22h19c12.131,0,22,9.869,22,22v24    C153,430.07,143.131,439.939,131,439.939z M112,391.939c-1.103,0-2,0.897-2,2v24c0,1.103,0.897,2,2,2h19c1.103,0,2-0.897,2-2v-24    c0-1.103-0.897-2-2-2H112z"
+                />
+              </g>
+            </g>
+          </svg>
+          <p class="btn-text">Entertainment</p>
+        </a>
+        <a class="btn flex" href="more.html">
+          <svg
+            class="icon-btn"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            enable-background="new 0 0 32 32"
+            id="Editable-line"
+            version="1.1"
+            viewBox="0 0 32 32"
+            xml:space="preserve"
+          >
+            <line
+              fill="none"
+              id="XMLID_103_"
+              stroke="#000000"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-miterlimit="10"
+              stroke-width="2"
+              x1="7"
+              x2="25"
+              y1="16"
+              y2="16"
+            />
+            <line
+              fill="none"
+              id="XMLID_102_"
+              stroke="#000000"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-miterlimit="10"
+              stroke-width="2"
+              x1="7"
+              x2="25"
+              y1="25"
+              y2="25"
+            />
+            <line
+              fill="none"
+              id="XMLID_101_"
+              stroke="#000000"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-miterlimit="10"
+              stroke-width="2"
+              x1="7"
+              x2="25"
+              y1="7"
+              y2="7"
+            />
+          </svg>
+          <p class="btn-text">More</p>
+        </a>
+      </div>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

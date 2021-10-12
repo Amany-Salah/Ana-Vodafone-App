@@ -1,0 +1,63 @@
+.back {
+  justify-items: end;
+}
+.icon-back {
+  color: #656565;
+  width: 3.2rem;
+  height: 3.2rem;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.usage {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+}
+.icons {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  padding: 0.2rem;
+  display: inline-block;
+}
+.icon-bg {
+  background-color: #fff;
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon {
+  width: 2rem;
+  height: 2rem;
+}
+.icon-tel {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+.icon-intra {
+  width: 2rem;
+  height: 2rem;
+}
+.icon-roaming {
+  width: 2rem;
+  height: 2rem;
+}
+.text-box {
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0.6rem;
+  border-bottom: 3px solid #e02100;
+  flex: 1 0 auto;
+}
+.renew-days {
+  font-size: 1.4rem;
+  color: #c7c7c7;
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid #f9f9f9;
+}

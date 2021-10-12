@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Bill</title>
+    <link rel="stylesheet" type="text/css" href="my-bill.css" />
+    <link rel="stylesheet" type="text/css" href="general.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="main">
+      <header class="top-nav">
+        <a class="btn back" href="index.html">
+          <ion-icon class="icon-arrow" name="chevron-back-outline"></ion-icon>
+        </a>
+        <h3 class="heading-tertiary align-text">My Bill</h3>
+      </header>
+      <div class="total-bills body-margin">
+        <h3 class="heading-secondary">My total bills</h3>
+        <div class="block">
+          <p class="bill-text">
+            your bill this month is: <span class="bill-num">511.77 EGP</span>
+          </p>
+          <a class="pay-now" href="bill-payment.html">Pay now</a>
+        </div>
+      </div>
+
+      <!-- BILLS -->
+
+      <div class="body-margin">
+        <h3 class="heading-secondary margin">Billing history</h3>
+        <p class="line">Line status</p>
+        <p class="active">Active</p>
+      </div>
+      <div class="bills body-margin">
+        <div class="block container">
+          <p class="red-text">511.77 EGP</p>
+          <p class="grey-text">Due date 16 May</p>
+        </div>
+        <div class="block container">
+          <p class="red-text">370.18 EGP</p>
+          <p class="grey-text">Due date 15 Apr</p>
+        </div>
+        <div class="block container">
+          <p class="red-text">371.82 EGP</p>
+          <p class="grey-text">Due date 18 Mar</p>
+        </div>
+        <div class="block container">
+          <p class="red-text">370.18 EGP</p>
+          <p class="grey-text">Due date 15 Feb</p>
+        </div>
+      </div>
+    </main>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

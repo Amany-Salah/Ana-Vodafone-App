@@ -1,0 +1,166 @@
+.top-nav {
+  display: grid;
+  grid-template-columns: 1fr 4rem;
+  margin: 0 0 1.2rem 0;
+  align-items: center;
+  /* gap: 3.2rem; */
+}
+.heading-tertiary.align-text {
+  justify-self: center !important;
+}
+.close {
+  justify-items: end;
+}
+.icon-close {
+  color: #656565;
+  width: 4rem;
+  height: 4rem;
+}
+/*
+********************************
+ACCOUNT
+******************************** 
+*/
+.account-options {
+  /* display: flex;
+  justify-content: space-around;
+  align-items: center; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.2rem;
+
+  /* padding: 1.2rem; */
+  /* margin: 0 1.2rem 1.2rem 1.2rem; */
+}
+.switch,
+.exit {
+  margin-top: 1.2rem;
+  margin-bottom: 0.6rem;
+  display: inline;
+  border: 1px solid #e00201;
+  border-radius: 5px;
+  padding: 1.6rem 3.2rem;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #e00201;
+}
+/*
+********************************
+APP
+******************************** 
+*/
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+.icon-check {
+  width: 6.4rem;
+  height: 6.4rem;
+  color: #08a300;
+}
+/*
+********************************
+FRIENDS
+******************************** 
+*/
+.friends {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 1.2rem;
+  justify-content: start;
+}
+.align {
+  justify-self: start !important;
+}
+.invite-friends {
+  margin-top: 0.6rem;
+  margin-bottom: 1.2rem;
+  display: inline;
+  border: 1px solid #e00201;
+  border-radius: 5px;
+  padding: 1.6rem 3.2rem;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #e00201;
+}
+.boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.2rem;
+  margin-bottom: 0.6rem;
+}
+.right-box,
+.left-box {
+  border: 1px solid #f7f7f7;
+  border-radius: 5px;
+}
+.text-box {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.8rem;
+  padding: 1.2rem;
+}
+.your-friends,
+.mbs {
+  display: inline;
+}
+.text-btn {
+  background-color: #f7f7f7;
+  font-size: 1.8rem;
+  padding: 1.2rem;
+  text-align: center;
+}
+.view-list,
+.your-gift {
+  color: #656565;
+}
+.btn.promo-code {
+  background-color: #e00201;
+  color: #fff;
+  grid-column: 1/-1;
+  padding: 1.6rem;
+  border-radius: 5px;
+}
+/*
+********************************
+PAYMENTS
+******************************** 
+*/
+.block.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.6rem 1.2rem;
+}
+.text-icon {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+.icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  display: inline;
+}
+.texts {
+  display: inline;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.english {
+  color: #e00201;
+}
+.icon-arrow,
+.icon-logout {
+  width: 2.4rem;
+  height: 2.4rem;
+  display: inline-block;
+  color: #e00201;
+  justify-self: flex-end;
+}

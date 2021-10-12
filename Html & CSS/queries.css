@@ -1,0 +1,43 @@
+@media (max-width: 37.5em) {
+  .btns-footer {
+    padding: 1rem 0;
+  }
+  .icon-btn.home {
+    width: 3.6rem;
+    height: 3.6rem;
+  }
+}
+
+@media (max-width: 56.25em) {
+  html {
+    font-size: 70% !important;
+  }
+
+  .img-services {
+    width: 8rem;
+    height: 8rem;
+  }
+}
+
+@media (max-width: 75em) {
+  html {
+    font-size: 80% !important;
+  }
+}
+/* 1rem=1em=16px */
+/* ******************************** */
+/* BELOW 1344px (SMALLER DESKTOPS) */
+/* ******************************** */
+
+/* ******************************** */
+/* BELOW 1200px (LANDSCAPE TABLETS) */
+/* ******************************** */
+
+/* ******************************** */
+/* BELOW 944px (TABLETS) */
+/* ******************************** */
+/* @media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+} */

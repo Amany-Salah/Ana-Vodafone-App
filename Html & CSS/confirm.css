@@ -1,0 +1,71 @@
+.top-nav {
+  display: grid;
+  grid-template-columns: 3.2rem 1fr;
+  margin: 0 0 1.2rem 0;
+  align-items: center;
+  padding-top: 0.6rem;
+}
+.heading-tertiary.align-text {
+  justify-self: center !important;
+}
+.back {
+  justify-items: end;
+}
+.icon-arrow {
+  color: #656565;
+  width: 3.2rem;
+  height: 3.2rem;
+}
+/*
+********************************
+CONFIRM
+******************************** 
+*/
+.heading-primary.align-text.bigger-font {
+  font-size: 2.4rem;
+}
+.confirm-logo {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  align-items: center;
+  justify-content: center;
+}
+.confirm-icon {
+  /* text-align: center; */
+  stroke: #fff;
+  fill: #fff;
+  width: 3.2rem;
+  height: 3.2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.icon {
+  width: 7.2rem;
+  height: 7.2rem;
+  background-color: #08a300;
+  border-radius: 50%;
+  position: relative;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.confirm-text {
+  font-size: 1.4rem;
+}
+.send-request {
+  margin-top: 1.2rem;
+  margin-bottom: 0.6rem;
+  display: block;
+  border-radius: 5px;
+  padding: 1.6rem;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: #e00201;
+}

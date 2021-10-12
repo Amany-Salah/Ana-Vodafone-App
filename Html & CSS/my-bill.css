@@ -1,0 +1,75 @@
+.top-nav {
+  display: grid;
+  grid-template-columns: 3.2rem 1fr;
+  margin: 0 0 1.2rem 0;
+  align-items: center;
+  background-color: #fff;
+  padding-top: 0.6rem;
+}
+.heading-tertiary.align-text {
+  justify-self: center !important;
+}
+.back {
+  justify-items: end;
+}
+.icon-arrow {
+  color: #656565;
+  width: 3.2rem;
+  height: 3.2rem;
+}
+/*
+********************************
+BILL
+******************************** 
+*/
+.pay-now {
+  margin-top: 1.2rem;
+  margin-bottom: 0.6rem;
+  display: block;
+  border-radius: 5px;
+  padding: 1.6rem;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: #e00201;
+}
+.bill-text {
+  font-size: 1.4rem;
+}
+.bill-num {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #e00201;
+}
+
+/*
+********************************
+BILLS
+******************************** 
+*/
+.line {
+  font-size: 1.2rem;
+}
+.active {
+  color: #08a300;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+.block.container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 0.8rem;
+  padding: 1.2rem;
+}
+
+.red-text {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #e00201;
+}
+.grey-text {
+  font-size: 1rem;
+  font-weight: 500;
+}

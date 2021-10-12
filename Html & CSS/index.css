@@ -1,0 +1,296 @@
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 1.2rem 0;
+}
+.vodafone-logo {
+  width: 4rem;
+  height: 4rem;
+}
+.icon-search {
+  color: #656565;
+  width: 4rem;
+  height: 4rem;
+}
+/*
+********************************
+MY PLAN
+******************************** 
+*/
+.plan-details {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.2rem;
+  border: 1px solid #e00201;
+  border-radius: 5px;
+  margin: 0 1.2rem 1.2rem 1.2rem;
+}
+/* .internet {
+  border-bottom: 2px solid #e00201 !important;
+  padding-bottom: 1.2rem;
+} */
+
+.minutes,
+.sms,
+.gegabytes {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.vertical-line {
+  background-color: #e00201;
+  display: inline-block;
+  width: 0.1rem;
+  height: 2.4rem;
+}
+.more {
+  display: grid;
+  gap: 0.4rem;
+}
+.pay-money {
+  font-size: 1.4rem;
+  padding-bottom: 0.2rem;
+  border-bottom: 2px solid #f9f9f9;
+}
+.pay-month {
+  color: #c7c7c7;
+  font-size: 1.2rem;
+}
+.show-more {
+  justify-self: end;
+  font-size: 1.6rem;
+}
+/*
+********************************
+USAGE DETAILS
+******************************** 
+*/
+
+.btns {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* padding: 0.6rem 0; */
+  border-bottom: 2px solid #f9f9f9;
+}
+
+.internet {
+  border-bottom: 2px solid #e00201 !important;
+  padding: 0.6rem 0 1.2rem 0;
+}
+.internet,
+.minutes-usage,
+.intra-minutes {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #656565;
+  flex: 0 0 33.333333%;
+}
+.internet-details {
+  padding: 1.2rem 0;
+}
+.internet-num {
+  color: #e00201;
+  font-weight: 700;
+  font-size: 4.8rem;
+  margin-right: 0.4rem;
+}
+.internet-mb {
+  font-size: 1.6rem;
+}
+.internet-mb {
+  font-weight: 600;
+}
+.red-line {
+  border: none;
+  background-color: #e00201;
+  height: 0.4rem;
+  margin-bottom: 1.2rem;
+}
+.renewal {
+  font-size: 1.4rem;
+  margin-bottom: 0.2rem;
+}
+.renewal-days {
+  font-weight: 600;
+}
+.last-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.6rem;
+}
+.last {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.last-updated {
+  color: #c7c7c7;
+  font-size: 1.2rem;
+}
+.icon-refresh {
+  width: 1.2rem;
+  height: 1.2rem;
+  color: #c7c7c7;
+}
+.btn-manage {
+  padding: 1.2rem 2.4rem;
+  font-size: 1.6rem;
+  color: #e00201;
+  font-weight: 700;
+  border: 1px solid #e00201;
+  border-radius: 5px;
+  background: none;
+}
+/*
+********************************
+MY BILL
+******************************** 
+*/
+.bill {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  align-content: start;
+  row-gap: 0.8rem;
+}
+.icon-bill {
+  width: 4.8rem;
+  height: 4.8rem;
+  fill: #08a300;
+  align-self: center;
+  justify-self: start;
+}
+.bill-text {
+  align-self: center;
+}
+.line {
+  font-size: 1.2rem;
+}
+.active {
+  color: #08a300;
+  font-weight: 600;
+}
+.tap {
+  grid-column: 1/-1;
+  justify-self: start;
+}
+/*
+********************************
+MY SERVICES
+******************************** 
+*/
+.my-services {
+  margin: 2.4rem 0;
+}
+.services {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.img-services {
+  background-color: #79acf1;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8rem;
+  border: none;
+  width: 6.4rem;
+  height: 6.4rem;
+  /* margin-bottom: 0.8rem; */
+  margin-top: 1.2rem;
+  box-shadow: 0 0 0.2rem 0.4rem rgba(0, 0, 0, 0.01);
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  align-items: center;
+}
+.text {
+  font-size: 1.6rem;
+  line-height: 1;
+}
+/*
+********************************
+EXCLUSIVE OFFERS
+******************************** 
+*/
+.exclusive-offers {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 2.4rem;
+}
+.exclusive-img {
+  /* width: 50%; */
+  width: 19.2rem;
+  height: 19.2rem;
+  border-radius: 5px;
+  box-shadow: 0 0 0.2rem 0.4rem rgba(0, 0, 0, 0.01);
+}
+/*
+********************************
+MY BENEFITS
+******************************** 
+*/
+.my-benefits {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 0;
+}
+.benefits-img {
+  /* width: 50%; */
+  width: 19.2rem;
+  height: 19.2rem;
+  border-radius: 5px;
+  box-shadow: 0 0 0.2rem 0.4rem rgba(0, 0, 0, 0.01);
+}
+/*
+********************************
+FOOTER
+******************************** 
+*/
+.footer-nav {
+  position: relative;
+}
+/* .footer-nav.sticky {
+  position: sticky;
+  bottom: 0;
+  left: 0;
+}  */
+.btns-footer {
+  background-color: #fff;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.01);
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(50%);
+  z-index: 48;
+  padding: 2rem 0;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1.5fr 1fr 1fr;
+  justify-content: space-around;
+  gap: 1.2rem; */
+}
+
+.icon-btn.home {
+  width: 4.8rem;
+  height: 4.8rem;
+  fill: #e00201;
+}
+.icon-btn {
+  width: 2.4rem;
+  height: 2.4rem;
+  fill: #656565;
+  /* z-index: 1; */
+}
+.btn-text {
+  font-size: 1.2rem;
+}

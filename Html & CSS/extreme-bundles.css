@@ -1,0 +1,43 @@
+.top-nav {
+  display: grid;
+  grid-template-columns: 3.2rem 1fr;
+  margin: 0 0 1.2rem 0;
+  align-items: center;
+  padding-top: 0.6rem;
+}
+.heading-tertiary.align-text {
+  justify-self: center !important;
+}
+.back {
+  justify-items: end;
+}
+.icon-arrow {
+  color: #656565;
+  width: 3.2rem;
+  height: 3.2rem;
+}
+/*
+********************************
+BILL
+******************************** 
+*/
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.bundle-text {
+  font-size: 1.4rem;
+}
+.subscribe {
+  margin-top: 1.2rem;
+  margin-bottom: 0.6rem;
+  display: block;
+  border-radius: 5px;
+  padding: 1.6rem;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: #e00201;
+}

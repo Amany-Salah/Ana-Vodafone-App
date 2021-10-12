@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log in with WiFi</title>
+    <link rel="stylesheet" type="text/css" href="log-in-wifi.css" />
+    <link rel="stylesheet" type="text/css" href="general.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="content">
+      <header class="top-nav">
+        <div class="flex-container body-margin">
+          <div class="top">
+            <img
+              class="vodafone-logo"
+              src="img/vodafone-logo.png"
+              alt="vodafone logo"
+            />
+            <div class="language">
+              <button class="btn-language">EN</button>
+            </div>
+          </div>
+          <p class="app-text">
+            Hi,<br />Ana Vodafone app doesn't consume from your megabytes or
+            balance
+          </p>
+          <div class="wifi">
+            <p class="skip">To skip log in</p>
+            <a class="turn-off" href="#">Turn off Wi-Fi</a>
+          </div>
+        </div>
+      </header>
+      <div class="form body-margin">
+        <form class="log-in-form" action="#">
+          <label class="to-log-in" for="mobile-number"
+            >If you want to proceed using Wi-Fi or logging in with a different
+            account</label
+          >
+          <input
+            class="input-field mobile-number"
+            type="te"
+            name="mobile-number"
+            id="mobile-number"
+            placeholder="Type a mobile-number"
+          />
+          <a class="proceed" href="index.html">Proceed</a>
+        </form>
+        <a class="discover" href="#">Discover Ana Vodafone</a>
+        <a class="dont" href="sign-up.html">Don't have an account?</a>
+      </div>
+    </main>
+  </body>
+</html>

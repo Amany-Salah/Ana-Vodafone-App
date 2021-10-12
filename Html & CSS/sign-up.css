@@ -1,0 +1,106 @@
+.content {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 1fr);
+}
+.top-nav {
+  background-image: url(img/sign-up.png);
+  background-position: center;
+  background-size: cover;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4.8rem;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+.vodafone-logo {
+  width: 4rem;
+  height: 4rem;
+}
+.language {
+  background-color: #f7f7f7;
+  height: 3.4rem;
+  width: 6.6rem;
+  border-radius: 100rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-language {
+  border: none;
+  cursor: pointer;
+  background-color: #e00201;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #fff;
+  width: 3rem;
+  height: 3rem;
+  margin: 0.2rem;
+  border-radius: 50%;
+}
+.sign-up-img {
+  position: relative;
+}
+.vodafone-img {
+  width: 100%;
+}
+.app-text {
+  font-size: 2.8rem;
+  font-weight: 500;
+  color: #fff;
+  margin-top: 2.4rem;
+  line-height: 1.5;
+}
+/* ****************************** 
+SIGN UP FORM
+****************************** */
+.sign-up-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.2rem;
+}
+.sign-up-form *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.1rem rgba(101, 101, 101, 0.2);
+}
+.to-sign-up {
+  font-size: 1.6rem;
+  display: block;
+}
+.input-field {
+  padding: 1.6rem;
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+}
+.input-field::placeholder {
+  color: #ebebeb;
+}
+.mobile-number,
+.email,
+.password,
+.proceed {
+  grid-column: 1/-1;
+}
+.proceed {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-align: center;
+  background-color: #e00201;
+  border-radius: 5px;
+  padding: 1.6rem;
+}
+.discover {
+  color: #b5b5b5;
+  font-size: 1.4rem;
+  text-align: center;
+  text-decoration: underline !important;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  margin-top: 3.2rem;
+}

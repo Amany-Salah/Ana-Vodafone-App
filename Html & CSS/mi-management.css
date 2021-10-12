@@ -1,0 +1,79 @@
+.top-nav {
+  display: grid;
+  grid-template-columns: 3.2rem 1fr;
+  margin: 0 0 1.2rem 0;
+  align-items: center;
+  background-color: #fff;
+  padding-top: 0.6rem;
+  /* gap: 3.2rem; */
+}
+.heading-tertiary.align-text {
+  justify-self: center !important;
+}
+.back {
+  justify-items: end;
+}
+.icon-back {
+  color: #656565;
+  width: 3.2rem;
+  height: 3.2rem;
+}
+.extreme-img {
+  width: 100%;
+  /* width: 15rem;
+  height: 6rem; */
+  border-radius: 5px;
+}
+.extreme-bundles {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.bundles {
+  font-size: 1.6rem;
+}
+.business-red {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn.tap {
+  color: #e02100;
+}
+.active-bundle {
+  width: 6rem;
+}
+.block.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.6rem 1.2rem;
+}
+.text-icon {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+.icon {
+  width: 4.8rem;
+  height: 4.8rem;
+  display: inline;
+}
+.texts {
+  display: inline;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.english {
+  color: #e00201;
+}
+.icon-arrow {
+  width: 2.4rem;
+  height: 2.4rem;
+  display: inline-block;
+  color: #e00201;
+  justify-self: flex-end;
+}

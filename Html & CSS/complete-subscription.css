@@ -1,0 +1,42 @@
+.top-nav {
+  display: grid;
+  grid-template-columns: 3.2rem 1fr;
+  margin: 0 0 1.2rem 0;
+  align-items: center;
+  padding-top: 0.6rem;
+}
+.heading-tertiary.align-text {
+  justify-self: center !important;
+}
+.back {
+  justify-items: end;
+}
+.icon-arrow {
+  color: #656565;
+  width: 3.2rem;
+  height: 3.2rem;
+}
+/*
+********************************
+COMPLETE
+******************************** 
+*/
+.heading-primary.align-text.bigger-font {
+  font-size: 2.4rem;
+}
+.complete-logo {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  align-items: center;
+  justify-content: center;
+}
+.icon-check {
+  width: 8rem;
+  height: 8rem;
+  color: #08a300;
+}
+
+.complete-text {
+  font-size: 1.4rem;
+}

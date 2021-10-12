@@ -1,0 +1,46 @@
+.top-nav {
+  display: grid;
+  grid-template-columns: 1fr 4rem;
+  align-items: center;
+  /* gap: 3.2rem; */
+}
+.heading-tertiary.align-text {
+  justify-self: center !important;
+}
+.close {
+  justify-items: end;
+}
+.icon-close {
+  color: #656565;
+  width: 4rem;
+  height: 4rem;
+}
+.search-field {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-bottom: 1.2rem;
+}
+.search-field *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.1rem rgba(101, 101, 101, 0.2);
+}
+.input-field {
+  padding: 1.6rem;
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.input-field::placeholder {
+  color: #ebebeb;
+}
+.mic {
+  font-size: 1.4rem;
+  margin-bottom: 2.4rem;
+}
+.light-text {
+  font-size: 1.2rem;
+  color: #c7c7c7;
+  text-align: center;
+  font-size: 400;
+  margin-bottom: 1.2rem;
+}

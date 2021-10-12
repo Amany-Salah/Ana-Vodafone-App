@@ -1,0 +1,18 @@
+.top-nav {
+  display: grid;
+  grid-template-columns: 3.2rem 1fr;
+  margin: 0 0 1.2rem 0;
+  align-items: center;
+  /* gap: 3.2rem; */
+}
+.heading-tertiary.align-text {
+  justify-self: center !important;
+}
+.back {
+  justify-items: end;
+}
+.icon-back {
+  color: #656565;
+  width: 3.2rem;
+  height: 3.2rem;
+}

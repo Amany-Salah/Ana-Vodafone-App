@@ -1,0 +1,136 @@
+/* 
+--- 01 TYPOGRAPHY ---
+
+- Font sizes system (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font weights
+- Reguar:  400
+- Medium: 500
+- Bold: 700
+- Line heights
+- Default: 1
+- Small: 1.05
+- Medium: 1.2
+- Paragraph default: 1.6
+
+- LETTER SPACING 
+- 0.75px
+- -0.5px
+
+--- 02 COLORS ---
+- Primary: #e00201
+#08a300
+#79acf1
+- Tints: 
+- Shades:
+- Accents:
+- Greys: #656565 
+#f9f9f9
+font color
+#656565
+#c7c7c7
+--- 03 SHADOWS ---
+
+0 1.2rem 2.4rem rgba(0, 0, 0, 0.075);
+--- 04 BORDER RADIUS ---
+- Border: 9px
+Medium: 11 px
+
+--- 05 WHITESPACE ---
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.25%;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "roboto", "sans-serif";
+  color: #656565;
+  background-color: #f9f9f9;
+  font-weight: 500;
+  position: relative;
+}
+.body-margin {
+  margin: 1.2rem;
+}
+
+.heading-primary {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+}
+.heading-secondary {
+  font-size: 1.8rem;
+  font-weight: 600;
+  justify-self: end;
+  margin-bottom: 0.8rem;
+}
+.red-text {
+  color: #e00201;
+}
+.heading-tertiary {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #656565;
+  justify-self: end;
+  margin-bottom: 0.2rem;
+}
+.small-text {
+  font-size: 1.2rem;
+  color: #c7c7c7;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.red {
+  color: #e00201;
+}
+.green {
+  color: #08a300;
+  font-weight: 600;
+}
+.bold {
+  color: #656565;
+  font-weight: 600;
+}
+.align-text {
+  text-align: center;
+}
+.margin {
+  margin-bottom: 0.2rem;
+}
+.block {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 0.2rem 0.4rem rgba(0, 0, 0, 0.01);
+  /* padding: 0.8rem 1.2rem; */
+  padding: 1.2rem;
+  margin-bottom: 1.6rem;
+}
+.btn {
+  border: none;
+  cursor: pointer;
+  background: none;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #656565;
+}
+.btn-long {
+  border: none;
+  cursor: pointer;
+  color: #656565;
+}
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}

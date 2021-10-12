@@ -1,0 +1,120 @@
+.content {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr 1fr;
+}
+.top-nav {
+  background-image: url(img/sign-up.png);
+  background-size: cover;
+  background-position: center;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  gap: 9.6rem;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+.vodafone-logo {
+  width: 4rem;
+  height: 4rem;
+  margin: 1.2rem;
+}
+.language {
+  background-color: #f7f7f7;
+  height: 3.4rem;
+  width: 6.6rem;
+  border-radius: 100rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-language {
+  border: none;
+  cursor: pointer;
+  background-color: #e00201;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #fff;
+  width: 3rem;
+  height: 3rem;
+  margin: 0.2rem;
+  border-radius: 50%;
+}
+.turn-off {
+  display: grid;
+  grid-template-columns: 1fr;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-align: center !important;
+  background-color: #e00201;
+  border-radius: 5px;
+  padding: 1.6rem 3.2rem;
+}
+
+.app-text {
+  font-size: 2.8rem;
+  font-weight: 500;
+  color: #fff;
+  margin-top: 2.4rem;
+  line-height: 1.5;
+}
+.skip {
+  font-size: 1.4rem;
+  color: #fff;
+  margin-bottom: 1.2rem;
+  font-weight: 400;
+}
+/* ****************************** 
+LOG IN FORM
+****************************** */
+.log-in-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.2rem;
+}
+.to-log-in {
+  font-size: 1.6rem;
+  display: block;
+}
+.input-field {
+  padding: 1.6rem;
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+}
+.input-field::placeholder {
+  color: #ebebeb;
+}
+.mobile-number,
+.to-log-in {
+  grid-column: 1/-1;
+}
+.proceed {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-align: center;
+  background-color: #e00201;
+  border-radius: 5px;
+  padding: 1.6rem;
+  grid-column: 1/-1;
+}
+.discover {
+  text-align: center;
+  justify-content: center;
+}
+.dont {
+  justify-content: flex-end;
+}
+.discover,
+.dont {
+  color: #b5b5b5;
+  font-size: 1.4rem;
+  text-decoration: underline !important;
+  display: inline-block;
+  display: flex;
+  margin-top: 3.2rem;
+}
